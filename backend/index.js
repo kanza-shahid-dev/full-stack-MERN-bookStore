@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import path from "path";
-import connectDb from "../config/dbConnection.js";
+import connectDb from "./config/dbConnection.js";
 
 //Routes
 import bookRoutes from "./route/book.route.js";
